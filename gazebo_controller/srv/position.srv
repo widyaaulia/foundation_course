@@ -1,0 +1,5 @@
+int32[4] x
+int32[4] y
+float32[4] theta
+---
+bool res

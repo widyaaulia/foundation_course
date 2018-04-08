@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+	<node pkg="gazebo_controller" type="gazebo_server.py" output="screen" name="gazebo_server" required="true" />
+
+	<node pkg="gazebo_controller" type="gazebo_client.py" output="screen" name="gazebo_client" required="true" />
+
+</launch>
